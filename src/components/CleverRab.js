@@ -184,7 +184,7 @@ const CleverRab = () => {
             <img
             width={200}
                 alt="well"
-                src="https://media.istockphoto.com/id/685117658/vector/brick-well-with-blue-water-and-wooden-bucket.jpg?s=612x612&w=0&k=20&c=eYxo4sXm_IKcZ5v2j4iO-rmiTjPt_Aw3HhJliOz-Qlo="
+                src="https://media.giphy.com/media/WNgZRGmxtrn9Ugu8xN/giphy.gif"
                 draggable="true"
                 onDragStart={(e) => {
                 dragUrl.current = e.target.src;

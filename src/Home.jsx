@@ -9,17 +9,17 @@ import {Link} from "react-router-dom"
 import './Home.css'
 import React, { useEffect, useState } from 'react'
 
-// function createCard (trialcard){
-//   return (
-//     <Card
-//       key ={trialcard.id}
-//       name = {trialcard.name}
-//       img = {trialcard.img}
-//       description = {trialcard.description}
-//       link = {trialcard.link}
-//       />
-//      )
-//   }
+function createCard (trialcard){
+  return (
+    <Card
+      key ={trialcard.id}
+      name = {trialcard.name}
+      img = {trialcard.img}
+      description = {trialcard.description}
+      link = {trialcard.link}
+      />
+     )
+  }
 
 
 function Home(props) {
@@ -50,7 +50,7 @@ function Home(props) {
       <Greeting/>
       <div className='e-card-horizontal'>
 
-        {
+        {/* {
           // stories? stories.map((story)=>{
           //   return (
           //     <Card story = {story}/>
@@ -62,10 +62,10 @@ function Home(props) {
            return 
            <Card story = {story}/>
           })
-        }
+        } */}
 
 
-        {/* {trialcard.map(createCard)} */}
+        {trialcard.map(createCard)}
         
         {/* <Card
           storyname={props.name} 
